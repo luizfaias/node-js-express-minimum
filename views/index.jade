@@ -1,0 +1,8 @@
+doctype html
+html(lang='en')
+  body(ng-app='basic-app', ng-controller='GlobalController', ng-init='callws()')
+    p #{title}
+
+    block scripts
+      script(src='https://ajax.googleapis.com/ajax/libs/angularjs/1.2.23/angular.min.js')
+      script(src='/javascripts/controller.js')
